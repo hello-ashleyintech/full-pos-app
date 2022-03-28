@@ -31,7 +31,7 @@ Once your `.env` is set up, install dependencies. You'll need to do the followin
 
 ### 3. Run application
 
-To run your aplication, open a new window or tab in the Terminal so that you have two tabs or windows open.
+To run your application, open a new window or tab in the Terminal so that you have two tabs or windows open.
 In one tab, run `npm start` in the `api` folder. (The back-end will run on `localhost:9000`)
 In another tab, run `npm start` in the `client` folder.
 
@@ -46,3 +46,5 @@ To confirm an order was created, go to your [Serialized](https://serialized.io/)
 To confirm items have been added to an order or that your order has been completed, go to your Serialized Dashboard > Data explorer > Aggregates > order (under Aggregate type column) > Aggregates > click the Aggregate ID of the top (and most recent) entry.
 
 To see details on events within an Aggregatem you can click on Event IDs within this view.
+
+To confirm your projections have been created for viewing your completed orders, go to your Serialized Dashboard for your project > Projections. You should be able to see your created projections from here. If you click into the projections, you can view the schema of the projection.
