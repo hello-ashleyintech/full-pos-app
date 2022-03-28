@@ -1,0 +1,15 @@
+ul {
+  list-style-type: none;
+}
+
+.receiptEntry {
+  justify-content: space-between;
+  margin: auto;
+  width: 200px;
+  display: flex;
+}
+
+.receipt {
+  margin: auto;
+  width: 50%;
+}

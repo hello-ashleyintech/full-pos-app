@@ -1,0 +1,21 @@
+ul {
+  list-style-type: none;
+  margin: auto;
+  width: 50%;
+}
+
+.orderEntry {
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  width: 600px;
+}
+
+.order {
+  margin: 0px !important;
+}
+
+.orderTotal {
+  padding: 20px 0px 20px 20px;
+  display: flex;
+}
