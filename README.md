@@ -1,6 +1,8 @@
 # pos-app-for-orders
 
-👋 Hello! This app is a very simple POS (point-of-sale) application that supports three use cases: creating orders, adding items to an order, and completing or exiting an order. It uses [Serialized](https://serialized.io/) to keep track of events.
+👋 Hello! This app is a very simple POS (point-of-sale) application that supports three main use cases: creating orders, adding items to an order, and completing or exiting an order. This also allows you to view an itemized view of all completed orders. It uses [Serialized](https://serialized.io/) to keep track of events and to pull the data.
+
+![full-pos-gif](https://user-images.githubusercontent.com/12901850/160322699-bb6adea6-6a48-482f-b0db-a005c105a397.gif)
 
 ## Getting started
 
