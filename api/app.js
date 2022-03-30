@@ -54,12 +54,4 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
-/*app.listen(9000, async () => {
-
-  await projectionsClient.updateProjections();
-
-  console.log(`Application ${process.env.SERVICE_NAME} is up and running.`);
-  console.log(`API is available at: https://localhost:9000`);
-});*/
-
 module.exports = app;

@@ -22,7 +22,6 @@ router.post("/", async function (req, res) {
 
 router.post("/individual-order", async function (req, res) {
   const { orderId } = req.body;
-  console.log(orderId);
   try {
     var response = await projectionsClient.findOrderBreakdownProjection(
       orderId
